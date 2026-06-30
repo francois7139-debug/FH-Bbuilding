@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --background: #050505;
+  --card: rgba(20,20,20,0.75);
+  --primary-gold: #C9A84C;
+  --accent-gold: #FFD700;
+  --dark-gold: #8B6914;
+}
+
+body {
+  background: #050505;
+  color: #ededed;
+  font-family: var(--font-geist-sans);
+}
+
+.glass {
+  background: var(--card);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
+}
